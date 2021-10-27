@@ -9,9 +9,15 @@ export class SidenavComponent implements OnInit {
 
    /* sidenav_opend = true; */
 
-   constructor() { }
+   constructor() { 
+
+   }
 
    ngOnInit(): void {
+
    }
+
+   
+
 
 }
