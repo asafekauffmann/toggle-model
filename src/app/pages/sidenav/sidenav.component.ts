@@ -1,15 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-sidenav',
-  templateUrl: './sidenav.component.html',
-  styleUrls: ['./sidenav.component.sass']
+   selector: 'app-sidenav',
+   templateUrl: './sidenav.component.html',
+   styleUrls: ['./sidenav.component.sass']
 })
 export class SidenavComponent implements OnInit {
 
-  constructor() { }
+   /* sidenav_opend = true; */
 
-  ngOnInit(): void {
-  }
+   constructor() { }
+
+   ngOnInit(): void {
+   }
 
 }
