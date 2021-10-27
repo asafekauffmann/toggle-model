@@ -1,14 +1,14 @@
 
 <div class="header">
    <a (click)="show = !show">
-      {{show ? 'hide' : 'show'}}
+      <!-- {{show ? 'hide' : 'show'}} -->
       <img src="../../../assets/logo.png" width="50" alt="logo">
    </a>
    <a><p>Profile</p></a>
 
 </div>
 
-show = {{show}}
+<!-- show = {{show}} -->
 
 <div class="main">
    <div class="navLeft" *ngIf="show; else elseBlock" >
