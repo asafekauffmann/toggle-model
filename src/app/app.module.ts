@@ -6,12 +6,15 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './component/header/header.component';
 import { MainNavComponent } from './component/main-nav/main-nav.component';
+import { SidenavComponent } from './pages/sidenav/sidenav.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    MainNavComponent
+    MainNavComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
