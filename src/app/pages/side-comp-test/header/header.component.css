@@ -3,12 +3,13 @@
   padding: 0;
 }
 
-.header {
+* .header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 50px;
   width: 100%;
+  border: 1px solid black;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -18,7 +19,12 @@
   background-color: #BFC9CA;
 }
 
-.header a {
+* .header a {
   margin: 0 20px;
+}
+
+* .header a p {
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=header.component.css.map */

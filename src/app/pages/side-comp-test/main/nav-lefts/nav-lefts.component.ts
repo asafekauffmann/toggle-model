@@ -1,15 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-nav-lefts',
-  templateUrl: './nav-lefts.component.html',
-  styleUrls: ['./nav-lefts.component.sass']
+   selector: 'app-nav-lefts',
+   templateUrl: './nav-lefts.component.html',
+   styleUrls: ['./nav-lefts.component.sass']
 })
 export class NavLeftsComponent implements OnInit {
 
-  constructor() { }
+   show = true;
 
-  ngOnInit(): void {
-  }
+   
+
+   ngOnInit(): void {
+   }
 
 }

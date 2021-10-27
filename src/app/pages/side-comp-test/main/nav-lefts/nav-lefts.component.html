@@ -1,4 +1,5 @@
-<div class="navLeft">
-      
+<div class="navLeft" *ngIf="show; else elseBlock">
    <p>aqui</p>
 </div>
+
+<ng-template #elseBlock></ng-template>
