@@ -4,21 +4,21 @@
       {{show ? 'hide' : 'show'}}
       <img src="../../../assets/logo.png" width="50" alt="logo">
    </a>
+   <a><p>Profile</p></a>
 
-   <a>
-      <p>Profile</p>
-   </a>
 </div>
 
-<div class="main" *ngIf="show; else elseBlock">
-   <div class="navLeft" >
-      show = {{show}}
+show = {{show}}
+
+<div class="main">
+   <div class="navLeft" *ngIf="show; else elseBlock" >
+      
       <p>aqui</p>
    </div>
 
-   <div class="mainAfter" #elseBlock >
+   <ng-template class="mainAfter" #elseBlock >
 
-   </div>
+   </ng-template>
 
    <div class="navMain">
       <p>dentro</p>
