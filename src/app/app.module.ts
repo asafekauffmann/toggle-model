@@ -7,6 +7,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './component/header/header.component';
 import { MainNavComponent } from './component/main-nav/main-nav.component';
 import { SidenavComponent } from './pages/sidenav/sidenav.component';
+import { NgIfSimpleComponent } from './pages/ng-if-simple/ng-if-simple.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { SidenavComponent } from './pages/sidenav/sidenav.component';
     AppComponent,
     HeaderComponent,
     MainNavComponent,
-    SidenavComponent
+    SidenavComponent,
+    NgIfSimpleComponent
   ],
   imports: [
     BrowserModule,

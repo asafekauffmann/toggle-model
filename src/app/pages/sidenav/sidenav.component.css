@@ -38,6 +38,10 @@
   background-color: #F4D03F;
 }
 
+.main .mainAfter {
+  display: none;
+}
+
 .main .navMain {
   width: 100%;
   height: 700px;

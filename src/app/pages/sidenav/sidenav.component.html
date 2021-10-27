@@ -1,6 +1,7 @@
 
 <div class="header">
-   <a>
+   <a (click)="show = !show">
+      {{show ? 'hide' : 'show'}}
       <img src="../../../assets/logo.png" width="50" alt="logo">
    </a>
 
@@ -9,9 +10,14 @@
    </a>
 </div>
 
-<div class="main">
+<div class="main" *ngIf="show; else elseBlock">
    <div class="navLeft" >
+      show = {{show}}
       <p>aqui</p>
+   </div>
+
+   <div class="mainAfter" #elseBlock >
+
    </div>
 
    <div class="navMain">
@@ -22,5 +28,4 @@
 
 
 <!-- (click)="sidenav_opened = !sidenav_opened" -->
-
 <!-- [(opened)]="sidenav_opened" -->
