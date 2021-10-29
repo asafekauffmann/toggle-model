@@ -1,1 +1,15 @@
-<p>main-nav works!</p>
+<div class="main">
+   <div class="navLeft" *ngIf="show; else elseBlock" >
+      
+      <p>aqui</p>
+   </div>
+
+   <ng-template class="mainAfter" #elseBlock >
+
+   </ng-template>
+
+   <div class="navMain">
+      <p>dentro</p>
+   </div>
+
+</div>

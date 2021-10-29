@@ -1,3 +1,4 @@
+import { AllCompComponent } from './pages/all-comp/all-comp.component';
 import { SidenavComponent } from './pages/sidenav/sidenav.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -10,6 +11,9 @@ const routes: Routes = [
    },
    {
       path: 'ngIf', component: NgIfSimpleComponent
+   },
+   {
+      path: 'all', component: AllCompComponent
    }
 ];
 
