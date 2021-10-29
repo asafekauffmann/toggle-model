@@ -7,11 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainNavComponent implements OnInit {
 
-   show = true;
+   show: boolean = true;
 
   constructor() { }
 
+
   ngOnInit(): void {
   }
+
+  
 
 }
