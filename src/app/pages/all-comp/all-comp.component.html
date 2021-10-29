@@ -1,5 +1,7 @@
 <app-header (click)="show = !show"></app-header>
 <app-main-nav *ngIf="show; else elseBlock"></app-main-nav>
-<ng-template class="mainAfter" #elseBlock> </ng-template>
+<ng-template class="mainAfter" #elseBlock> 
+   <app-main-route></app-main-route>
+</ng-template>
 
-<app-main-route></app-main-route>
+<!-- <app-main-route></app-main-route> -->
