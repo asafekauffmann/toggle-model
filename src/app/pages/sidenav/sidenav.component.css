@@ -38,6 +38,10 @@
   background-color: #F4D03F;
 }
 
+.main .navLeft p {
+  padding: 15px;
+}
+
 .main .mainAfter {
   display: none;
 }
@@ -46,5 +50,9 @@
   width: 100%;
   height: 700px;
   background-color: #2E4053;
+}
+
+.main .navMain p {
+  padding: 15px;
 }
 /*# sourceMappingURL=sidenav.component.css.map */
