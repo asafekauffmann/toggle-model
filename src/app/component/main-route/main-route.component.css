@@ -3,4 +3,8 @@
   height: 700px;
   background-color: #2E4053;
 }
+
+.navMain p {
+  padding: 15px;
+}
 /*# sourceMappingURL=main-route.component.css.map */
