@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACN,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,OAAO;CAGJ;;AANxB,AAKG,QALK,CAKL,UAAU,CAAC;EACR,OAAO,EAAE,IAAI;CAAG",
-    "sources": [
-        "nav-lefts.component.sass"
-    ],
-    "names": [],
-    "file": "nav-lefts.component.css"
-}
