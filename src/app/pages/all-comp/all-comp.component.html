@@ -1,2 +1,3 @@
-<app-header></app-header>
-<app-main-nav></app-main-nav>
+<app-header (click)="show = !show"></app-header>
+<app-main-nav *ngIf="show; else elseBlock"></app-main-nav>
+<ng-template class="mainAfter" #elseBlock> </ng-template>
