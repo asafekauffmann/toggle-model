@@ -10,6 +10,7 @@ import { SidenavComponent } from './pages/sidenav/sidenav.component';
 import { NgIfSimpleComponent } from './pages/ng-if-simple/ng-if-simple.component';
 import { AllCompComponent } from './pages/all-comp/all-comp.component';
 import { MainRouteComponent } from './component/main-route/main-route.component';
+import { LogoComponent } from './component/header/logo/logo.component';
 
 
 
@@ -21,7 +22,8 @@ import { MainRouteComponent } from './component/main-route/main-route.component'
     SidenavComponent,
     NgIfSimpleComponent,
     AllCompComponent,
-    MainRouteComponent
+    MainRouteComponent,
+    LogoComponent
   ],
   imports: [
     BrowserModule,
