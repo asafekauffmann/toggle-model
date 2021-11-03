@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACV,OAAO,EAAE,IAAI;EAEb,MAAM,EAAE,eAAe;CAAG",
     "sources": [
         "logo.component.sass"
     ],
