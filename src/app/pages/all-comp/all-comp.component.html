@@ -1,4 +1,5 @@
-<app-header (click)="show = !show"></app-header>
+<app-header></app-header>
+<app-logo (click)="show = !show"></app-logo>
 <!-- componentizar logo-menu -->
 <app-main-nav *ngIf="show; else elseBlock"></app-main-nav>
 <ng-template class="mainAfter" #elseBlock> 
