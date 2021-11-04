@@ -1,3 +1,4 @@
+import { AllTwocompComponent } from './pages/all-twocomp/all-twocomp.component';
 import { AllCompComponent } from './pages/all-comp/all-comp.component';
 import { SidenavComponent } from './pages/sidenav/sidenav.component';
 import { NgModule } from '@angular/core';
@@ -14,6 +15,9 @@ const routes: Routes = [
    },
    {
       path: 'all', component: AllCompComponent
+   },
+   {
+      path: 'two', component: AllTwocompComponent
    }
 ];
 
