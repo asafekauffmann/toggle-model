@@ -13,7 +13,6 @@ import { MainRouteComponent } from './component/main-route/main-route.component'
 
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
