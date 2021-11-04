@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainNavComponent implements OnInit {
 
-   show: boolean = true;
+   show = true;
 
   constructor() { }
 

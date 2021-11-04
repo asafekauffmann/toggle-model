@@ -10,9 +10,6 @@ import { SidenavComponent } from './pages/sidenav/sidenav.component';
 import { NgIfSimpleComponent } from './pages/ng-if-simple/ng-if-simple.component';
 import { AllCompComponent } from './pages/all-comp/all-comp.component';
 import { MainRouteComponent } from './component/main-route/main-route.component';
-import { AllTwocompComponent } from './pages/all-twocomp/all-twocomp.component';
-import { MyMainComponent } from './pages/all-twocomp/my-main/my-main.component';
-import { MyNavComponent } from './pages/all-twocomp/my-nav/my-nav.component';
 
 
 
@@ -24,10 +21,7 @@ import { MyNavComponent } from './pages/all-twocomp/my-nav/my-nav.component';
     SidenavComponent,
     NgIfSimpleComponent,
     AllCompComponent,
-    MainRouteComponent,
-    AllTwocompComponent,
-    MyMainComponent,
-    MyNavComponent
+    MainRouteComponent
   ],
   imports: [
     BrowserModule,
